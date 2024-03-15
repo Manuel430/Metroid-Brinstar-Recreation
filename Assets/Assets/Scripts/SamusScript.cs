@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -47,7 +48,7 @@ public class SamusScript : MonoBehaviour
 
     private void Update()
     {
-        //rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
     }
 
     private bool IsGrounded()
@@ -62,7 +63,14 @@ public class SamusScript : MonoBehaviour
             return;
         }
 
-        horizontal = context.ReadValue<Vector2>().x;
+        if(context.performed)
+        {
+            horizontal = context.ReadValue<Vector2>().x;
+        }
+        else if(context.canceled)
+        {
+            horizontal = 0f;
+        }
         
     }
 
@@ -75,9 +83,13 @@ public class SamusScript : MonoBehaviour
 
         if(context.performed && IsGrounded())
         {
-            rBody.velocity = new(rBody.velocity.x, jump);
+            rBody.velocity = new Vector2(rBody.velocity.x, jump);
         }
 
+        if(context.canceled && rBody.velocity.y > 0f)
+        {
+            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y * 0.5f);
+        }
     }
 
 }
