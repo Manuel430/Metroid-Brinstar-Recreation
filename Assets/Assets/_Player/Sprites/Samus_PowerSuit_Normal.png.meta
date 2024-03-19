@@ -320,7 +320,7 @@ TextureImporter:
         width: 19
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,6 +328,153 @@ TextureImporter:
       bones: []
       spriteID: 822d31ad04621b74b9a38671a614bcbb
       internalID: 2006016893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_Intro_01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7172469a7f037458cef22cca30175d
+      internalID: -849814894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_Intro_02
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 202
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2df9b002d80e794e99a8420a82d700b
+      internalID: 1788221841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_Intro_03
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 202
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a948b98801f6cae46aea8f51b9e83b27
+      internalID: -661769769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_01
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eea7a811f0efc40b47bb36946b4338
+      internalID: -1657632825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_02
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4671b0f48f14dd94faddcc9b60e6ff25
+      internalID: 973275057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_03
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2beb925612531f49af4b2d5e777f544
+      internalID: 573677730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Morphball_04
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014c35a194aedef4a9a81477112e537b
+      internalID: 666653890
       vertices: []
       indices: 
       edges: []
@@ -345,6 +492,13 @@ TextureImporter:
     nameFileIdTable:
       Samus_Idle: 828849258
       Samus_Jump: -1509713607
+      Samus_Morphball_01: -1657632825
+      Samus_Morphball_02: 973275057
+      Samus_Morphball_03: 573677730
+      Samus_Morphball_04: 666653890
+      Samus_Morphball_Intro_01: -849814894
+      Samus_Morphball_Intro_02: 1788221841
+      Samus_Morphball_Intro_03: -661769769
       Samus_SpinningJump_01: 643108189
       Samus_SpinningJump_02: -451668647
       Samus_SpinningJump_03: 2037723234

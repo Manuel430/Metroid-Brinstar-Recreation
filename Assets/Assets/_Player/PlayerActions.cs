@@ -44,6 +44,15 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Morphball"",
+                    ""type"": ""Button"",
+                    ""id"": ""467b03d7-f172-4b80-be6e-3a1a108abe34"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -123,6 +132,28 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0cb278ab-1e35-4ef3-b789-f8bed95593fb"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Morphball"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""98e2786c-fc6d-4676-8349-edb99ecbfd80"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Morphball"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -133,6 +164,7 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
+        m_Player_Morphball = m_Player.FindAction("Morphball", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -196,12 +228,14 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Jump;
+    private readonly InputAction m_Player_Morphball;
     public struct PlayerActions
     {
         private @PlayerActionsScript m_Wrapper;
         public PlayerActions(@PlayerActionsScript wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
+        public InputAction @Morphball => m_Wrapper.m_Player_Morphball;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -217,6 +251,9 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
+            @Morphball.started += instance.OnMorphball;
+            @Morphball.performed += instance.OnMorphball;
+            @Morphball.canceled += instance.OnMorphball;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -227,6 +264,9 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
+            @Morphball.started -= instance.OnMorphball;
+            @Morphball.performed -= instance.OnMorphball;
+            @Morphball.canceled -= instance.OnMorphball;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -248,5 +288,6 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
+        void OnMorphball(InputAction.CallbackContext context);
     }
 }

@@ -11,7 +11,9 @@ public class SamusScript : MonoBehaviour
     Rigidbody2D rBody;
     PlayerActionsScript playerActions;
     [SerializeField] SamusAnimationScript samusAnim;
+    [SerializeField] SamusUpgradeCheck upgradeCheck;
     [SerializeField] Transform groundCheck;
+    [SerializeField] Transform roofCheck;
     [SerializeField] LayerMask groundLayer;
 
     [Header("Player Stats")]
@@ -22,6 +24,7 @@ public class SamusScript : MonoBehaviour
     [Header("Cutscene")]
     [SerializeField] bool inCutscene;
     [SerializeField] bool isMoving;
+    [SerializeField] bool isMorphBall;
 
     #region Cutscene
     
@@ -42,11 +45,17 @@ public class SamusScript : MonoBehaviour
     {
         rBody = GetComponent<Rigidbody2D>();
         playerActions = new PlayerActionsScript();
+
         playerActions.Player.Enable();
 
         playerActions.Player.Movement.performed += Move;
         playerActions.Player.Movement.canceled += Move;
+
         playerActions.Player.Jump.performed += Jump;
+        playerActions.Player.Jump.canceled += Jump;
+
+        playerActions.Player.Morphball.performed += Morphball;
+
     }
 
     private void Update()
@@ -81,6 +90,11 @@ public class SamusScript : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
+    private bool Ceiling()
+    {
+        return Physics2D.OverlapCircle(roofCheck.position, 0.2f, groundLayer);
+    }
+
     private void Move(InputAction.CallbackContext context)
     {
         if (inCutscene)
@@ -111,6 +125,19 @@ public class SamusScript : MonoBehaviour
 
         if(context.performed && IsGrounded())
         {
+            if (isMorphBall)
+            {
+                if (Ceiling())
+                {
+                    return;
+                }
+
+                samusAnim.MorphballAnim(false);
+                isMorphBall = false;
+                return;
+            }
+
+            samusAnim.SpinningAnim();
             rBody.velocity = new Vector2(rBody.velocity.x, jump);
         }
 
@@ -118,6 +145,26 @@ public class SamusScript : MonoBehaviour
         {
             rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y * 0.5f);
         }
+    }
+
+    private void Morphball(InputAction.CallbackContext context)
+    {
+        if (inCutscene)
+        {
+            return;
+        }
+
+        if(upgradeCheck.GetMorphballCheck() && IsGrounded())
+        {
+            Debug.Log("Can Morphball");
+            samusAnim.MorphballAnim(true);
+            isMorphBall = true;
+        }
+        else
+        {
+            Debug.Log("Cannot Morphball");
+        }
+
     }
 
 }

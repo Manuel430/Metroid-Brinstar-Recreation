@@ -21,4 +21,14 @@ public class SamusAnimationScript : MonoBehaviour
     {
         animator.SetBool("isJumping", isJumping);
     }
+
+    public void SpinningAnim()
+    {
+        animator.SetTrigger("Spinning");
+    }
+
+    public void MorphballAnim(bool isMorphball)
+    {
+        animator.SetBool("inMorphball", isMorphball);
+    }
 }
