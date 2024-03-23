@@ -6,6 +6,11 @@ public class RoomManagementScript : MonoBehaviour
 {
     [SerializeField] GameObject virtualCAM;
 
+    private void Awake()
+    {
+        virtualCAM.SetActive(false);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player") && !collision.isTrigger)
