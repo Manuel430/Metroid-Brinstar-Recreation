@@ -149,7 +149,7 @@ public class SamusScript : MonoBehaviour
 
     private void Morphball(InputAction.CallbackContext context)
     {
-        if (inCutscene)
+        if (inCutscene || horizontal != 0)
         {
             return;
         }
