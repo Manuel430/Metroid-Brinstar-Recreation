@@ -51,14 +51,16 @@ MonoBehaviour:
   samusAnim: {fileID: 2664942127460217890}
   upgradeCheck: {fileID: 7831317036127748567}
   groundCheck: {fileID: 7001737061427585414}
+  roofCheck: {fileID: 8321808510751641555}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
   horizontal: 0
-  speed: 5
-  jump: 14
+  speed: 4
+  jump: 15
   inCutscene: 0
   isMoving: 0
+  isMorphBall: 0
 --- !u!50 &4315508340323550273
 Rigidbody2D:
   serializedVersion: 4
@@ -98,6 +100,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96be1f33ff01e8b47a1b1f4fdb563968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMorphball: 0
+--- !u!1 &6282805077088610388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8321808510751641555}
+  m_Layer: 0
+  m_Name: RoofCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8321808510751641555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6282805077088610388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3859112455781330751}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7252456772189744294
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,11 +192,12 @@ Transform:
   m_GameObject: {fileID: 7567795490564236033}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.06, z: 0}
+  m_LocalPosition: {x: 0, y: -0.06000018, z: 0}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7001737061427585414}
+  - {fileID: 8321808510751641555}
   m_Father: {fileID: 58968922839286604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6615800708839149985
@@ -284,7 +319,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0029278398}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -295,7 +330,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6666667, y: 1.3333334}
+  m_Size: {x: 0.6666667, y: 1.2794116}
   m_EdgeRadius: 0
 --- !u!1 &7738817873501261255
 GameObject:
@@ -325,7 +360,7 @@ Transform:
   m_GameObject: {fileID: 7738817873501261255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.333332, y: 2.25, z: -10}
+  m_LocalPosition: {x: 0.120000005, y: 2.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -366,7 +401,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4.95
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
