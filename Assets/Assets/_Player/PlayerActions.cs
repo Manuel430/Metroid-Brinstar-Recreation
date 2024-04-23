@@ -53,6 +53,24 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Aim"",
+                    ""type"": ""Button"",
+                    ""id"": ""fc5b8825-992c-4c87-8a2a-65b2dc5dfb59"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Fire"",
+                    ""type"": ""Button"",
+                    ""id"": ""fde24a03-bd1a-4d38-a8ea-c754d1b20e8e"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -154,6 +172,39 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""action"": ""Morphball"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""16e68f22-83e7-4d6f-9c62-40ffdede7fc4"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Aim"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""13939556-3489-4f0e-8327-7c85f478eff6"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Aim"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ae153ef5-4c5d-46c0-9cf4-17c7fa5d8a7c"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Fire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -165,6 +216,8 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_Morphball = m_Player.FindAction("Morphball", throwIfNotFound: true);
+        m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
+        m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -229,6 +282,8 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Movement;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_Morphball;
+    private readonly InputAction m_Player_Aim;
+    private readonly InputAction m_Player_Fire;
     public struct PlayerActions
     {
         private @PlayerActionsScript m_Wrapper;
@@ -236,6 +291,8 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Player_Movement;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @Morphball => m_Wrapper.m_Player_Morphball;
+        public InputAction @Aim => m_Wrapper.m_Player_Aim;
+        public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -254,6 +311,12 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Morphball.started += instance.OnMorphball;
             @Morphball.performed += instance.OnMorphball;
             @Morphball.canceled += instance.OnMorphball;
+            @Aim.started += instance.OnAim;
+            @Aim.performed += instance.OnAim;
+            @Aim.canceled += instance.OnAim;
+            @Fire.started += instance.OnFire;
+            @Fire.performed += instance.OnFire;
+            @Fire.canceled += instance.OnFire;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -267,6 +330,12 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Morphball.started -= instance.OnMorphball;
             @Morphball.performed -= instance.OnMorphball;
             @Morphball.canceled -= instance.OnMorphball;
+            @Aim.started -= instance.OnAim;
+            @Aim.performed -= instance.OnAim;
+            @Aim.canceled -= instance.OnAim;
+            @Fire.started -= instance.OnFire;
+            @Fire.performed -= instance.OnFire;
+            @Fire.canceled -= instance.OnFire;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -289,5 +358,7 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnMorphball(InputAction.CallbackContext context);
+        void OnAim(InputAction.CallbackContext context);
+        void OnFire(InputAction.CallbackContext context);
     }
 }
