@@ -480,7 +480,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus_PowerSuit_Normal_0
+      name: Samus_PowerSuit_Beam
       rect:
         serializedVersion: 2
         x: 3
@@ -488,7 +488,7 @@ TextureImporter:
         width: 4
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,7 +501,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Samus_PowerSuit_Normal_1
+      name: Samus_PowerSuit_Ice
       rect:
         serializedVersion: 2
         x: 116
@@ -509,7 +509,7 @@ TextureImporter:
         width: 4
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,6 +517,489 @@ TextureImporter:
       bones: []
       spriteID: 922b3c960d0d60d45b34d93f39ca5343
       internalID: -156417353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_AimUp
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 298
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca1289141dcde40a490e253c76f1ce
+      internalID: 1765929877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcdb737bf3370f4abbbec3364c4c4ce
+      internalID: 1355921147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_AimWalk_01
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57389e0d21145184aa3afd964dd04b49
+      internalID: -1133457635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_AimWalk_02
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b580a1483503844a86b83526313b00
+      internalID: -1476652895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_AimWalk_0
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7041b15d25de54997f84d8a732c217
+      internalID: 700629690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_AimJump
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 304
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a2832966977d04880cb6c2e1c13c95
+      internalID: -1679775082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Walking_01
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e65c06381cb0c4ca5c482613a9132c
+      internalID: -889729554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Walking_02
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3411eb4fb8fece4a8dee749db32f2d0
+      internalID: 956804009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Walking_03
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc044a7d6f8aa2479e304d83c6f5243
+      internalID: 691950385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Jump
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a53cde30b081478237b480fad96cf
+      internalID: -702154007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Aim
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 243
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87df06b7adbec404794c8223611e55de
+      internalID: -1290299777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Aim_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b489140c87acf05439bf1867fd2e2628
+      internalID: 1566114855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Aim_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699e8a64e0a060646b4dd84db437a079
+      internalID: -19121691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Aim_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4504a840ebdc9c54697e4ecbddf8d6a9
+      internalID: -573641975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Shooting_Aim_Jump
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 249
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56b71cb31b8fd8419ae5f9b303d23d0
+      internalID: 462077635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_01
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ded635e15518f94f8d405b6ab8cdb84
+      internalID: -776221508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_02
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307d54150eb7bf64bad3c6625196c3db
+      internalID: -2143552795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_03
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7647046ef5d8647abbbb75c524d39c
+      internalID: -240813952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_04
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4ca2ac35a20784d8dc84132c5c537d
+      internalID: -669255221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_05
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712360787f897084ebebf100d380045b
+      internalID: 1013883095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_DeathParticle_06
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93293946b77779459534ac20d3a17b5
+      internalID: 531617870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Wave
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf075055111f9b041a13021e46fdb240
+      internalID: 431611503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_Idle
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 169
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2126f4b976cfcd146a74e8476e1ce0da
+      internalID: 1748934309
       vertices: []
       indices: 
       edges: []
@@ -532,6 +1015,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Samus_AimJump: -1679775082
+      Samus_AimUp: 1765929877
+      Samus_AimWalk_0: 700629690
+      Samus_AimWalk_01: -1133457635
+      Samus_AimWalk_02: -1476652895
       Samus_Idle: 828849258
       Samus_Jump: -1509713607
       Samus_Morphball_01: -1657632825
@@ -541,8 +1029,27 @@ TextureImporter:
       Samus_Morphball_Intro_01: -849814894
       Samus_Morphball_Intro_02: 1788221841
       Samus_Morphball_Intro_03: -661769769
-      Samus_PowerSuit_Normal_0: -1084048241
-      Samus_PowerSuit_Normal_1: -156417353
+      Samus_PowerSuit_Beam: -1084048241
+      Samus_PowerSuit_DeathParticle_01: -776221508
+      Samus_PowerSuit_DeathParticle_02: -2143552795
+      Samus_PowerSuit_DeathParticle_03: -240813952
+      Samus_PowerSuit_DeathParticle_04: -669255221
+      Samus_PowerSuit_DeathParticle_05: 1013883095
+      Samus_PowerSuit_DeathParticle_06: 531617870
+      Samus_PowerSuit_Ice: -156417353
+      Samus_PowerSuit_Missile: 260688588
+      Samus_PowerSuit_Missile_Idle: 1748934309
+      Samus_PowerSuit_Wave: 431611503
+      Samus_Shooting: 1355921147
+      Samus_Shooting_Aim: -1290299777
+      Samus_Shooting_Aim_Jump: 462077635
+      Samus_Shooting_Aim_Walk_01: 1566114855
+      Samus_Shooting_Aim_Walk_02: -19121691
+      Samus_Shooting_Aim_Walk_03: -573641975
+      Samus_Shooting_Jump: -702154007
+      Samus_Shooting_Walking_01: -889729554
+      Samus_Shooting_Walking_02: 956804009
+      Samus_Shooting_Walking_03: 691950385
       Samus_SpinningJump_01: 643108189
       Samus_SpinningJump_02: -451668647
       Samus_SpinningJump_03: 2037723234

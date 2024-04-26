@@ -121,7 +121,826 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Samus_Missile_Idle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25375ad6ee44b094494fdd89231a6ba2
+      internalID: -1149158190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Missile_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f4dbbfe307df24f8d11a985b30743e
+      internalID: 1681084116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Missile_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a9d2a3bd5673348a2d3637772dba1c
+      internalID: 228847352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_Missile_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6764959145f06c641ae5c3260a9f2717
+      internalID: -459303673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 312
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d162a61508c2bf46a608ca8d596d9fc
+      internalID: -1670156232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 298
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95820aeae729e62458c4f00606d22a16
+      internalID: 1976077970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bda38302b85b548b4029d2dacfdbd7
+      internalID: -1109139137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2af13613e5ea364a8cc22387de8fed0
+      internalID: 2077915346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93d3bf4f92edcf4485acdf42e4d2f83
+      internalID: 1965389974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 304
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa538c1c17177e248bb5f9785fc96e7e
+      internalID: 1684849718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495b46bb74f1ccf46a87ad80852788f4
+      internalID: -201017323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54126f7da8aaf0047bfb6f93a258c2b5
+      internalID: 1952324082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90c625958b368f468835f2f204e7a75
+      internalID: 686811147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 169
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22949f43ed60b3746a13f9ac9a327e73
+      internalID: 195556515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_10
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 169
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3726481627f82be429bc947e91c46232
+      internalID: -631206962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bff2fd4bbd342c4a8fba75cdd6cfbb8
+      internalID: -844114852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d39777fe9f6bcd41a860938ee8edc19
+      internalID: -1293686203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548b1bbce6da4254c99998351c69fdf3
+      internalID: -1298968078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded0b079384107d46b4c1bf0fe0b4a69
+      internalID: -1718992053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ddae885bb86d441a5233fdbba98c31
+      internalID: -720930803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5186f3bfeb27a4a9c9740bd815548e
+      internalID: -2026061919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd2cffd3b0c2cb48be8307c8b7b3098
+      internalID: 1013292653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_18
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 202
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d2606c4445c394fb55ccf4e16941d2
+      internalID: 2049548448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 202
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828af59b883f53d408a24295bdecb842
+      internalID: 1729460187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca5574dde204f45a90b5c9d65338c8
+      internalID: -664159014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01eb0680d13e4a428b62e95b0a71049
+      internalID: 935930551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cff559f75c9ce4ba5ed6bba69208e6
+      internalID: 1430070754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3f5cb5dbabb13479639c9e1a2874c6
+      internalID: -385247839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b158dc84f9ce4458dee3714bfb2529
+      internalID: 881443311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ebd367fbc31e44ea1cdad96c280283
+      internalID: -173826956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_26
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7807df76b97ec4e92bf7867c148e4a
+      internalID: -1632023989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d129f4ea4dac51a44931a2223750ddb9
+      internalID: 415108938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7503450656fbb04408b31f57fc331f4e
+      internalID: -9629711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ddea3824282f644bc4fe9dcfa6dd60
+      internalID: 1544587965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 243
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fef53ed121bae14e85120c261c178ea
+      internalID: -1988307568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84d5d5996088d34faced0e867a8b7ec
+      internalID: 375855445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_32
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c3c1b5dfa01a94d9537d0b35d858bb
+      internalID: 293952099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cd219decb0786478d4fef6eb43e1b2
+      internalID: 1201317889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_34
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 249
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8934cd81fec8ded4e832984a78398c8b
+      internalID: -1483068378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +951,46 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Samus_Missile_Idle: -1149158190
+      Samus_Missile_Walk_01: 1681084116
+      Samus_Missile_Walk_02: 228847352
+      Samus_Missile_Walk_03: -459303673
+      Samus_PowerSuit_Missile_0: -1670156232
+      Samus_PowerSuit_Missile_1: 1976077970
+      Samus_PowerSuit_Missile_10: -631206962
+      Samus_PowerSuit_Missile_11: -844114852
+      Samus_PowerSuit_Missile_12: -1293686203
+      Samus_PowerSuit_Missile_13: -1298968078
+      Samus_PowerSuit_Missile_14: -1718992053
+      Samus_PowerSuit_Missile_15: -720930803
+      Samus_PowerSuit_Missile_16: -2026061919
+      Samus_PowerSuit_Missile_17: 1013292653
+      Samus_PowerSuit_Missile_18: 2049548448
+      Samus_PowerSuit_Missile_19: 1729460187
+      Samus_PowerSuit_Missile_2: -1109139137
+      Samus_PowerSuit_Missile_20: -664159014
+      Samus_PowerSuit_Missile_21: 935930551
+      Samus_PowerSuit_Missile_22: 1430070754
+      Samus_PowerSuit_Missile_23: -385247839
+      Samus_PowerSuit_Missile_24: 881443311
+      Samus_PowerSuit_Missile_25: -173826956
+      Samus_PowerSuit_Missile_26: -1632023989
+      Samus_PowerSuit_Missile_27: 415108938
+      Samus_PowerSuit_Missile_28: -9629711
+      Samus_PowerSuit_Missile_29: 1544587965
+      Samus_PowerSuit_Missile_3: 2077915346
+      Samus_PowerSuit_Missile_30: -1988307568
+      Samus_PowerSuit_Missile_31: 375855445
+      Samus_PowerSuit_Missile_32: 293952099
+      Samus_PowerSuit_Missile_33: 1201317889
+      Samus_PowerSuit_Missile_34: -1483068378
+      Samus_PowerSuit_Missile_4: 1965389974
+      Samus_PowerSuit_Missile_5: 1684849718
+      Samus_PowerSuit_Missile_6: -201017323
+      Samus_PowerSuit_Missile_7: 1952324082
+      Samus_PowerSuit_Missile_8: 686811147
+      Samus_PowerSuit_Missile_9: 195556515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
