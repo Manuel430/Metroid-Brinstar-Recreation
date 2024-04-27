@@ -548,7 +548,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 249
-        width: 18
+        width: 20
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1004,6 +1004,111 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Normal_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d755644d7b71e4997e9fc2b898674c
+      internalID: 2103465881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Normal_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3051d65efca42c0458984de829e86497
+      internalID: 1657018491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Normal_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd79f7e6438ce6458e5bffab0a94069
+      internalID: -287158897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Normal_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dfd58fa0c61b34a997dbc08094402d
+      internalID: -1192636274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Normal_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf8c241e27ffb345881b7f907ea0f93
+      internalID: -1831867482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1039,6 +1144,11 @@ TextureImporter:
       Samus_PowerSuit_Ice: -156417353
       Samus_PowerSuit_Missile: 260688588
       Samus_PowerSuit_Missile_Idle: 1748934309
+      Samus_PowerSuit_Normal_0: 2103465881
+      Samus_PowerSuit_Normal_1: 1657018491
+      Samus_PowerSuit_Normal_2: -287158897
+      Samus_PowerSuit_Normal_3: -1192636274
+      Samus_PowerSuit_Normal_4: -1831867482
       Samus_PowerSuit_Wave: 431611503
       Samus_Shooting: 1355921147
       Samus_Shooting_Aim: -1290299777

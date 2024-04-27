@@ -31,4 +31,14 @@ public class SamusAnimationScript : MonoBehaviour
     {
         animator.SetBool("inMorphball", isMorphball);
     }
+
+    public void AimUpAnim(bool isAimUp)
+    {
+        animator.SetBool("AimUp", isAimUp);
+    }
+
+    public void FiringAnim()
+    {
+        animator.SetTrigger("Firing");
+    }
 }

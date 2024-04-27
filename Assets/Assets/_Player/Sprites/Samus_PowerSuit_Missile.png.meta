@@ -845,7 +845,7 @@ TextureImporter:
         width: 14
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -866,7 +866,7 @@ TextureImporter:
         width: 19
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,7 +887,7 @@ TextureImporter:
         width: 19
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -908,7 +908,7 @@ TextureImporter:
         width: 19
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -929,7 +929,7 @@ TextureImporter:
         width: 18
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -937,6 +937,111 @@ TextureImporter:
       bones: []
       spriteID: 8934cd81fec8ded4e832984a78398c8b
       internalID: -1483068378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a8cc69859b7b147868e1702e876f63
+      internalID: -185999960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3455ad1beab0f4990ae67cb00e4c79
+      internalID: -1975528348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_37
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711684b2f53845740b051e0076447c8d
+      internalID: -610225757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_38
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3eb0fd324810a49a24087caae3d749
+      internalID: 1316979989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_PowerSuit_Missile_39
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af08f9e27c958f4e88737deec2fbc43
+      internalID: -1637307797
       vertices: []
       indices: 
       edges: []
@@ -985,6 +1090,11 @@ TextureImporter:
       Samus_PowerSuit_Missile_32: 293952099
       Samus_PowerSuit_Missile_33: 1201317889
       Samus_PowerSuit_Missile_34: -1483068378
+      Samus_PowerSuit_Missile_35: -185999960
+      Samus_PowerSuit_Missile_36: -1975528348
+      Samus_PowerSuit_Missile_37: -610225757
+      Samus_PowerSuit_Missile_38: 1316979989
+      Samus_PowerSuit_Missile_39: -1637307797
       Samus_PowerSuit_Missile_4: 1965389974
       Samus_PowerSuit_Missile_5: 1684849718
       Samus_PowerSuit_Missile_6: -201017323

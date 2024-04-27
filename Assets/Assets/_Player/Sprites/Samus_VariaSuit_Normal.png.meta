@@ -121,7 +121,1015 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21f8a1822de9794ca6fb2c5df8c32d2
+      internalID: 2108643644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd865f8a1899b4fad0b5514d2ccc2e
+      internalID: -37125657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 137
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc03488dbb9a5c4a950647294d9bd3e
+      internalID: -279320623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 134
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfea04a0d2ee342bf6cc77295d4119
+      internalID: 1710673605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a26628bd85994fb8eec908a6501e4
+      internalID: 12631299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 175
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15749a0840ad9ca4596f8fd400772713
+      internalID: -297613168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725fbb6365c92d40a93a25182aaeaef
+      internalID: -916120342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 175
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c20a3b5e73a014f97430a85ca919a3
+      internalID: 1267391389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 173
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9009eeb186c39f48ab983d86e168808
+      internalID: 445236981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 169
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f83d2c6c7fef4ca64cd1c939418d7
+      internalID: 1809824918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a24f863b625fb4a9769ab3913de561
+      internalID: -865830381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 202
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ab565800ad5064f91d98abb83f274d
+      internalID: -1531833985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac004f04e0b228a4aa69ae87dd5f9f60
+      internalID: 984129059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2031ae9b25fdf4b90bfa7db0cfcb29
+      internalID: 1921100912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_14
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e900f709ad81c48bf52e79c0f89a2c
+      internalID: 2051630216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 220
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f08fd82370486c49a2662ee04c92968
+      internalID: -1789170345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 196
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e28013292d85804abb57f20feafa50a
+      internalID: -1480910829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb67739c1bcc1b4092ff40d08c5e664
+      internalID: 15784221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255dba7b842433d4dad68c61b3e36c14
+      internalID: 58146000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94edf55ba2b36c54a8f5e1380584a873
+      internalID: -1621087211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82519e9e9ad084f8b2ac224a0ea19d
+      internalID: 692019551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_21
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 202
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152513ac2a64d141a2bda67ba7e059f
+      internalID: 56423242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 202
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df60382435b20b4f873427b3eb0cde9
+      internalID: 702518763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 202
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce3baeb305fa764fb2588236625e0a4
+      internalID: -1345269512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_24
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 249
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919070cb74b160e4192b232c067434e3
+      internalID: 1473812335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bfb35ff394ca7419017d3c6a653e22
+      internalID: 2028205134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590cbef14096a9943a6ff81badad7f51
+      internalID: -1482819760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 243
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe976c5b1cff3e43a2f0d2a3327068d
+      internalID: -1966442282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 243
+        width: 14
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b479e62bf4f931f43950da5b865316e3
+      internalID: 368808351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59d03c63d7de2340abdee6b46d7e680
+      internalID: 1039335533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5c247f84c3c0f48a181f25b0327e01
+      internalID: -608950229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa986bfd64ffa4ea98c72fb041afd6
+      internalID: -623411629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 249
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3101f4e8d5273284c9d2661d25ea576f
+      internalID: 218031604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e004c928291f44d87b7aaa356f2e50
+      internalID: -21701155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_34
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4b8b2d9dd129746ba510fef3f374b7
+      internalID: -1538888656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3334a8a549b66564a9b930659bbbd53a
+      internalID: -1247804512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_36
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 314
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc0e7b967ea4ca4e85baa99cfc359a4
+      internalID: 1425927173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 285
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba666193d205f443b3839e059906c60
+      internalID: -1387653333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_38
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 304
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7ad52ad59d3644b93c862eb5cf1080
+      internalID: -1943312982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_39
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09397a54fced794f803453514124015
+      internalID: -1854870863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_40
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72dc0a47261d9243a98912510342162
+      internalID: 1865900766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_41
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 298
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a336d9ea696c6544b10a995e27c0eb4
+      internalID: 336897232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_42
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 298
+        width: 14
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f8ae04c8e204e42b0163eb513750d8
+      internalID: 1612987320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 312
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168c9e81a8121ea41bbdfc748b48f120
+      internalID: 147592378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_44
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f499c2aef7b1242ae47b12da2b7a60
+      internalID: -1640357106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4466897168a136a48a49311c651270d5
+      internalID: 1167696684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda9c05e51e69c642a1263377f1336c7
+      internalID: 1730390603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Samus_VariaSuit_Normal_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 306
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f91896d9fca14dbbee07720fded65
+      internalID: -39930684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1140,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Samus_VariaSuit_Normal_0: 2108643644
+      Samus_VariaSuit_Normal_1: -37125657
+      Samus_VariaSuit_Normal_10: -865830381
+      Samus_VariaSuit_Normal_11: -1531833985
+      Samus_VariaSuit_Normal_12: 984129059
+      Samus_VariaSuit_Normal_13: 1921100912
+      Samus_VariaSuit_Normal_14: 2051630216
+      Samus_VariaSuit_Normal_15: -1789170345
+      Samus_VariaSuit_Normal_16: -1480910829
+      Samus_VariaSuit_Normal_17: 15784221
+      Samus_VariaSuit_Normal_18: 58146000
+      Samus_VariaSuit_Normal_19: -1621087211
+      Samus_VariaSuit_Normal_2: -279320623
+      Samus_VariaSuit_Normal_20: 692019551
+      Samus_VariaSuit_Normal_21: 56423242
+      Samus_VariaSuit_Normal_22: 702518763
+      Samus_VariaSuit_Normal_23: -1345269512
+      Samus_VariaSuit_Normal_24: 1473812335
+      Samus_VariaSuit_Normal_25: 2028205134
+      Samus_VariaSuit_Normal_26: -1482819760
+      Samus_VariaSuit_Normal_27: -1966442282
+      Samus_VariaSuit_Normal_28: 368808351
+      Samus_VariaSuit_Normal_29: 1039335533
+      Samus_VariaSuit_Normal_3: 1710673605
+      Samus_VariaSuit_Normal_30: -608950229
+      Samus_VariaSuit_Normal_31: -623411629
+      Samus_VariaSuit_Normal_32: 218031604
+      Samus_VariaSuit_Normal_33: -21701155
+      Samus_VariaSuit_Normal_34: -1538888656
+      Samus_VariaSuit_Normal_35: -1247804512
+      Samus_VariaSuit_Normal_36: 1425927173
+      Samus_VariaSuit_Normal_37: -1387653333
+      Samus_VariaSuit_Normal_38: -1943312982
+      Samus_VariaSuit_Normal_39: -1854870863
+      Samus_VariaSuit_Normal_4: 12631299
+      Samus_VariaSuit_Normal_40: 1865900766
+      Samus_VariaSuit_Normal_41: 336897232
+      Samus_VariaSuit_Normal_42: 1612987320
+      Samus_VariaSuit_Normal_43: 147592378
+      Samus_VariaSuit_Normal_44: -1640357106
+      Samus_VariaSuit_Normal_45: 1167696684
+      Samus_VariaSuit_Normal_46: 1730390603
+      Samus_VariaSuit_Normal_47: -39930684
+      Samus_VariaSuit_Normal_5: -297613168
+      Samus_VariaSuit_Normal_6: -916120342
+      Samus_VariaSuit_Normal_7: 1267391389
+      Samus_VariaSuit_Normal_8: 445236981
+      Samus_VariaSuit_Normal_9: 1809824918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

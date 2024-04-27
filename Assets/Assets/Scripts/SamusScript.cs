@@ -56,6 +56,12 @@ public class SamusScript : MonoBehaviour
 
         playerActions.Player.Morphball.performed += Morphball;
 
+        playerActions.Player.Aim.performed += AimingUp;
+        playerActions.Player.Aim.canceled += AimingUp;
+
+        playerActions.Player.Fire.performed += Firing;
+        playerActions.Player.Fire.canceled += Firing;
+
     }
 
     private void Update()
@@ -165,6 +171,55 @@ public class SamusScript : MonoBehaviour
             Debug.Log("Cannot Morphball");
         }
 
+    }
+
+    private void AimingUp(InputAction.CallbackContext context)
+    {
+        if(inCutscene)
+        {
+            return;
+        }
+
+        if (context.performed)
+        {
+            if (isMorphBall)
+            {
+                if (Ceiling())
+                {
+                    return;
+                }
+
+                samusAnim.MorphballAnim(false);
+                isMorphBall = false;
+                return;
+            }
+
+            samusAnim.AimUpAnim(true);
+        }
+
+        if (context.canceled)
+        {
+            samusAnim.AimUpAnim(false);
+        }
+
+    }
+
+    private void Firing(InputAction.CallbackContext context)
+    {
+        if (inCutscene)
+        {
+            return;
+        }
+
+        if (context.performed)
+        {
+            if(isMorphBall)
+            {
+                return;
+            }
+
+            samusAnim.FiringAnim();
+        }
     }
 
 }
