@@ -38,6 +38,15 @@ public class SamusScript : MonoBehaviour
     public bool SetCutscene (bool setCutscene)
     {
         inCutscene = setCutscene;
+        if (inCutscene)
+        {
+            playerActions.Player.Disable();
+
+        }
+        else
+        {
+            playerActions.Player.Enable();
+        }
         return inCutscene;
     }
 
@@ -94,7 +103,14 @@ public class SamusScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        if(!inCutscene)
+        {
+            rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        }
+        else
+        {
+            rBody.velocity = Vector2.zero;
+        }
     }
 
     private void Flip()

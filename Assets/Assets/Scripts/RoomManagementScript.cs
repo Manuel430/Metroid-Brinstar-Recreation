@@ -5,6 +5,7 @@ using UnityEngine;
 public class RoomManagementScript : MonoBehaviour
 {
     [SerializeField] GameObject virtualCAM;
+    [SerializeField] Animator transitionAnim;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class RoomManagementScript : MonoBehaviour
         if (collision.CompareTag("Player") && !collision.isTrigger)
         {
             virtualCAM.SetActive(false);
+            transitionAnim.SetTrigger("Transitioning");
         }
     }
 }
