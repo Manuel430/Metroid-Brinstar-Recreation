@@ -41,4 +41,14 @@ public class SamusAnimationScript : MonoBehaviour
     {
         animator.SetTrigger("Firing");
     }
+
+    public void MissileAnim(bool isMissile)
+    {
+        animator.SetBool("InMissile", isMissile);
+    }
+
+    public void VariaAnim()
+    {
+        animator.SetTrigger("Varia");
+    }
 }

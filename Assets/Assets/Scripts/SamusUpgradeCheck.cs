@@ -5,6 +5,7 @@ using UnityEngine;
 public class SamusUpgradeCheck : MonoBehaviour
 {
     [SerializeField] bool canMorphball;
+    [SerializeField] bool canMissile;
 
     public void SetMorphballCheck(bool itemCheck)
     {
@@ -14,5 +15,15 @@ public class SamusUpgradeCheck : MonoBehaviour
     public bool GetMorphballCheck()
     {
         return canMorphball;
+    }
+
+    public void SetMissileCheck(bool itemCheck)
+    {
+        canMissile = itemCheck;
+    }
+
+    public bool GetMissileCheck()
+    {
+        return canMissile;
     }
 }

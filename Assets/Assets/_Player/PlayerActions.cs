@@ -71,6 +71,15 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MissileSelect"",
+                    ""type"": ""Button"",
+                    ""id"": ""e98711a1-cf87-4836-b225-8abd04241421"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -205,6 +214,17 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
                     ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""08812199-563f-4b09-9449-251a8b5a0e33"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MissileSelect"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -218,6 +238,7 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         m_Player_Morphball = m_Player.FindAction("Morphball", throwIfNotFound: true);
         m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
+        m_Player_MissileSelect = m_Player.FindAction("MissileSelect", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -284,6 +305,7 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Morphball;
     private readonly InputAction m_Player_Aim;
     private readonly InputAction m_Player_Fire;
+    private readonly InputAction m_Player_MissileSelect;
     public struct PlayerActions
     {
         private @PlayerActionsScript m_Wrapper;
@@ -293,6 +315,7 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         public InputAction @Morphball => m_Wrapper.m_Player_Morphball;
         public InputAction @Aim => m_Wrapper.m_Player_Aim;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
+        public InputAction @MissileSelect => m_Wrapper.m_Player_MissileSelect;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -317,6 +340,9 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Fire.started += instance.OnFire;
             @Fire.performed += instance.OnFire;
             @Fire.canceled += instance.OnFire;
+            @MissileSelect.started += instance.OnMissileSelect;
+            @MissileSelect.performed += instance.OnMissileSelect;
+            @MissileSelect.canceled += instance.OnMissileSelect;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -336,6 +362,9 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
             @Fire.started -= instance.OnFire;
             @Fire.performed -= instance.OnFire;
             @Fire.canceled -= instance.OnFire;
+            @MissileSelect.started -= instance.OnMissileSelect;
+            @MissileSelect.performed -= instance.OnMissileSelect;
+            @MissileSelect.canceled -= instance.OnMissileSelect;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -360,5 +389,6 @@ public partial class @PlayerActionsScript: IInputActionCollection2, IDisposable
         void OnMorphball(InputAction.CallbackContext context);
         void OnAim(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
+        void OnMissileSelect(InputAction.CallbackContext context);
     }
 }

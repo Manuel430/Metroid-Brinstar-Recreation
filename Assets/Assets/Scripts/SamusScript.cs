@@ -24,7 +24,13 @@ public class SamusScript : MonoBehaviour
     [Header("Cutscene")]
     [SerializeField] bool inCutscene;
     [SerializeField] bool isMoving;
+
+    [Header("Upgrades")]
     [SerializeField] bool isMorphBall;
+    [SerializeField] bool canMissile;
+    [SerializeField] int missileCount;
+    [SerializeField] int maxMissileCount;
+    [SerializeField] bool inVaria;
 
     #region Cutscene
     
@@ -37,6 +43,13 @@ public class SamusScript : MonoBehaviour
     public bool GetCutscene ()
     {
         return inCutscene;
+    }
+
+    public void MissileExpand(int expansionNumber)
+    {
+        maxMissileCount += expansionNumber;
+
+        missileCount = maxMissileCount;
     }
 
     #endregion
@@ -61,6 +74,8 @@ public class SamusScript : MonoBehaviour
 
         playerActions.Player.Fire.performed += Firing;
         playerActions.Player.Fire.canceled += Firing;
+
+        playerActions.Player.MissileSelect.performed += MissileSelect;
 
     }
 
@@ -162,13 +177,11 @@ public class SamusScript : MonoBehaviour
 
         if(upgradeCheck.GetMorphballCheck() && IsGrounded())
         {
-            Debug.Log("Can Morphball");
             samusAnim.MorphballAnim(true);
             isMorphBall = true;
         }
         else
         {
-            Debug.Log("Cannot Morphball");
         }
 
     }
@@ -219,6 +232,19 @@ public class SamusScript : MonoBehaviour
             }
 
             samusAnim.FiringAnim();
+        }
+    }
+
+    private void MissileSelect(InputAction.CallbackContext context)
+    {
+        if (inCutscene || horizontal != 0)
+        {
+            return;
+        }
+
+        if (upgradeCheck.GetMissileCheck())
+        {
+
         }
     }
 
