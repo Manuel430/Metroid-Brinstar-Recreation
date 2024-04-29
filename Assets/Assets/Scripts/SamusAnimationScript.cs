@@ -49,6 +49,6 @@ public class SamusAnimationScript : MonoBehaviour
 
     public void VariaAnim()
     {
-        animator.SetTrigger("Varia");
+        animator.SetTrigger("VariaSuit");
     }
 }

@@ -11,6 +11,8 @@ public class ItemPickup : MonoBehaviour
     [SerializeField] SamusUpgradeCheck upgradeCheck;
     [SerializeField] SamusScript missileUpgrade;
     [SerializeField] SamusAnimationScript variaUpgrade;
+    [SerializeField] GameObject limiter_01;
+    [SerializeField] GameObject limiter_02;
     [SerializeField] bool checker = true;
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -37,6 +39,11 @@ public class ItemPickup : MonoBehaviour
                     break;
                 case 5:
                     Debug.Log("Bomb Aquired");
+                    break;
+                case 6:
+                    Debug.Log("Long Beam Aquired");
+                    limiter_01.SetActive(false);
+                    limiter_02.SetActive(false);
                     break;
                 default:
                     Debug.Log("No item Aquired");

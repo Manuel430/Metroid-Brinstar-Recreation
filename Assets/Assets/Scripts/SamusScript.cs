@@ -31,6 +31,7 @@ public class SamusScript : MonoBehaviour
     [SerializeField] int missileCount;
     [SerializeField] int maxMissileCount;
     [SerializeField] bool inVaria;
+    [SerializeField] bool isAimingUp;
 
     #region Cutscene
     
@@ -206,12 +207,13 @@ public class SamusScript : MonoBehaviour
                 isMorphBall = false;
                 return;
             }
-
+            isAimingUp = true;
             samusAnim.AimUpAnim(true);
         }
 
         if (context.canceled)
         {
+            isAimingUp = false;
             samusAnim.AimUpAnim(false);
         }
 
@@ -237,14 +239,23 @@ public class SamusScript : MonoBehaviour
 
     private void MissileSelect(InputAction.CallbackContext context)
     {
-        if (inCutscene || horizontal != 0)
+        if (inCutscene || horizontal != 0 || missileCount == 0 || !IsGrounded() || isAimingUp || isMorphBall)
         {
             return;
         }
 
         if (upgradeCheck.GetMissileCheck())
         {
-
+            if (!canMissile)
+            {
+                canMissile = true;
+                samusAnim.MissileAnim(true);
+            }
+            else
+            {
+                canMissile = false;
+                samusAnim.MissileAnim(false);
+            }
         }
     }
 
