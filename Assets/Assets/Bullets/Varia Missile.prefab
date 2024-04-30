@@ -50,8 +50,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8368033683083266515, guid: 9f95c9e5fa6be0f48b836f77e579877a, type: 3}
       propertyPath: m_Name
-      value: Missile
+      value: Varia Missile
       objectReference: {fileID: 0}
+    - target: {fileID: 9107722690047030590, guid: 9f95c9e5fa6be0f48b836f77e579877a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -761734798, guid: 56e8f1470dc4d624c8164be0f8d27571, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

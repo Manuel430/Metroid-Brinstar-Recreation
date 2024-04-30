@@ -30,5 +30,10 @@ public class BeamBullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (collision.CompareTag("Breakable"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

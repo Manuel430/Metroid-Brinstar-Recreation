@@ -45,6 +45,10 @@ public class ItemPickup : MonoBehaviour
                     limiter_01.SetActive(false);
                     limiter_02.SetActive(false);
                     break;
+                case 7:
+                    Debug.Log("Ice Beam Aquired");
+                    variaUpgrade.IceBeamActive();
+                    break;
                 default:
                     Debug.Log("No item Aquired");
                     break;

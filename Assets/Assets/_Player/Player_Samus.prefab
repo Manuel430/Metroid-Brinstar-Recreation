@@ -513,9 +513,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2813130553311739636}
   samus: {fileID: 7148011553941316198}
+  isVariaSuit: 0
+  isMissileSuit: 0
   firePoint: {fileID: 5933697426424248451}
   firePointUp: {fileID: 4219243448793770222}
   powerBeam: {fileID: 7175314937031075000, guid: 1c568eec5bccb6b4b9cfc2dd9ec847a8, type: 3}
+  variaBeam: {fileID: 0}
 --- !u!61 &8346536765625452375
 BoxCollider2D:
   m_ObjectHideFlags: 0
