@@ -62,6 +62,16 @@ public class SamusScript : MonoBehaviour
         missileCount = maxMissileCount;
     }
 
+    public void SetAimingUp(bool setAimingUp)
+    {
+        isAimingUp = setAimingUp;
+    }
+
+    public bool GetAimingUp()
+    {
+        return isAimingUp;
+    }
+
     #endregion
 
     private void Awake()
@@ -224,12 +234,14 @@ public class SamusScript : MonoBehaviour
                 return;
             }
             isAimingUp = true;
+            SetAimingUp(true);
             samusAnim.AimUpAnim(true);
         }
 
         if (context.canceled)
         {
             isAimingUp = false;
+            SetAimingUp(false);
             samusAnim.AimUpAnim(false);
         }
 
@@ -237,7 +249,7 @@ public class SamusScript : MonoBehaviour
 
     private void Firing(InputAction.CallbackContext context)
     {
-        if (inCutscene)
+        if (inCutscene || horizontal != 0)
         {
             return;
         }

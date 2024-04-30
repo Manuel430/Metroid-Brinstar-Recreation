@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 4420895215466966723}
   - component: {fileID: 5364390512139927301}
   - component: {fileID: 3543429185492109599}
+  - component: {fileID: 3838248658552651462}
   m_Layer: 0
   m_Name: Power Beam
   m_TagString: Untagged
@@ -133,7 +134,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -174,9 +175,22 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
+--- !u!114 &3838248658552651462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7175314937031075000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839d9ef2ba747754b8798186ea1cb5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20

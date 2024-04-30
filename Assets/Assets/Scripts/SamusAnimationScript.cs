@@ -6,6 +6,13 @@ public class SamusAnimationScript : MonoBehaviour
 {
     [SerializeField] Animator animator;
     [SerializeField] SamusScript samus;
+
+    [Header("Fire Positions")]
+    [SerializeField] Transform firePoint;
+    [SerializeField] Transform firePointUp;
+
+    [Header("Bullet Prefabs")]
+    [SerializeField] GameObject powerBeam;
     
     public void SetCutscene()
     {
@@ -50,5 +57,17 @@ public class SamusAnimationScript : MonoBehaviour
     public void VariaAnim()
     {
         animator.SetTrigger("VariaSuit");
+    }
+
+    private void Shoot()
+    {
+        GameObject bullet = Instantiate(powerBeam, firePoint.position, firePoint.rotation);
+        bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.x);
+    }
+
+    private void ShootUp()
+    {
+        GameObject bullet = Instantiate(powerBeam, firePointUp.position, firePointUp.rotation);
+        bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.y);
     }
 }
