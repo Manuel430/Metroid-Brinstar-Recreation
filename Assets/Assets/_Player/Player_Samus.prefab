@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &876338530101730854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2241853382347515159}
+  m_Layer: 0
+  m_Name: BombPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2241853382347515159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 876338530101730854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3859112455781330751}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1242552347832592524
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +160,8 @@ MonoBehaviour:
   upgradeCheck: {fileID: 7831317036127748567}
   groundCheck: {fileID: 7001737061427585414}
   roofCheck: {fileID: 8321808510751641555}
+  bombPoint: {fileID: 2241853382347515159}
+  morphBallBomb: {fileID: 2877626882215003642, guid: 26786415992a5084c9f7facca7404a17, type: 3}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -143,6 +176,7 @@ MonoBehaviour:
   maxMissileCount: 0
   inVaria: 0
   isAimingUp: 0
+  canBomb: 0
 --- !u!50 &4315508340323550273
 Rigidbody2D:
   serializedVersion: 4
@@ -424,6 +458,7 @@ Transform:
   - {fileID: 8298064783284450269}
   - {fileID: 5933697426424248451}
   - {fileID: 4219243448793770222}
+  - {fileID: 2241853382347515159}
   m_Father: {fileID: 58968922839286604}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6615800708839149985
@@ -515,10 +550,14 @@ MonoBehaviour:
   samus: {fileID: 7148011553941316198}
   isVariaSuit: 0
   isMissileSuit: 0
+  isIceBeam: 0
   firePoint: {fileID: 5933697426424248451}
   firePointUp: {fileID: 4219243448793770222}
   powerBeam: {fileID: 7175314937031075000, guid: 1c568eec5bccb6b4b9cfc2dd9ec847a8, type: 3}
   variaBeam: {fileID: 0}
+  iceBeam: {fileID: 0}
+  normalMissile: {fileID: 0}
+  variaMissile: {fileID: 0}
 --- !u!61 &8346536765625452375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -592,7 +631,7 @@ Transform:
   m_GameObject: {fileID: 7738817873501261255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6599995, y: 0.049999952, z: -10}
+  m_LocalPosition: {x: 0.6600009, y: 0.04804325, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

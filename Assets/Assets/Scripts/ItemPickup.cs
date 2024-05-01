@@ -9,7 +9,7 @@ public class ItemPickup : MonoBehaviour
 
     [Header("Upgrade Checks")]
     [SerializeField] SamusUpgradeCheck upgradeCheck;
-    [SerializeField] SamusScript missileUpgrade;
+    [SerializeField] SamusScript SamusUpdate;
     [SerializeField] SamusAnimationScript variaUpgrade;
     [SerializeField] GameObject limiter_01;
     [SerializeField] GameObject limiter_02;
@@ -28,7 +28,7 @@ public class ItemPickup : MonoBehaviour
                 case 2:
                     Debug.Log("Missile Aquired");
                     upgradeCheck.SetMissileCheck(checker);
-                    missileUpgrade.MissileExpand(5);
+                    SamusUpdate.MissileExpand(5);
                     break;
                 case 3:
                     Debug.Log("Varia Aquired");
@@ -39,6 +39,7 @@ public class ItemPickup : MonoBehaviour
                     break;
                 case 5:
                     Debug.Log("Bomb Aquired");
+                    SamusUpdate.SetBombTrue();
                     break;
                 case 6:
                     Debug.Log("Long Beam Aquired");

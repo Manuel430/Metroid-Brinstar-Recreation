@@ -14,6 +14,8 @@ public class SamusScript : MonoBehaviour
     [SerializeField] SamusUpgradeCheck upgradeCheck;
     [SerializeField] Transform groundCheck;
     [SerializeField] Transform roofCheck;
+    [SerializeField] Transform bombPoint;
+    [SerializeField] GameObject morphBallBomb;
     [SerializeField] LayerMask groundLayer;
 
     [Header("Player Stats")]
@@ -32,6 +34,7 @@ public class SamusScript : MonoBehaviour
     [SerializeField] int maxMissileCount;
     [SerializeField] bool inVaria;
     [SerializeField] bool isAimingUp;
+    [SerializeField] bool canBomb;
 
     #region Cutscene
     
@@ -70,6 +73,11 @@ public class SamusScript : MonoBehaviour
     public bool GetAimingUp()
     {
         return isAimingUp;
+    }
+
+    public void SetBombTrue()
+    {
+        canBomb = true;
     }
 
     #endregion
@@ -257,6 +265,17 @@ public class SamusScript : MonoBehaviour
         {
             if(isMorphBall)
             {
+                if(canBomb)
+                {
+                    Debug.Log("Deploy Bomb");
+
+                    GameObject bomb = Instantiate(morphBallBomb, bombPoint.position, bombPoint.rotation);
+                }
+                else
+                {
+                    Debug.Log("Cannot Bomb");
+                }
+                
                 return;
             }
 
