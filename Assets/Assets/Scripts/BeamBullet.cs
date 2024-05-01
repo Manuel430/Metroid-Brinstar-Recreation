@@ -6,6 +6,7 @@ public class BeamBullet : MonoBehaviour
 {
     [SerializeField] float speed = 20f;
     Rigidbody2D rBody;
+    [SerializeField] bool isMissile;
 
     private void Awake()
     {
@@ -26,6 +27,20 @@ public class BeamBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(isMissile)
+        {
+            if (collision.CompareTag("Ground"))
+            {
+                Destroy(gameObject);
+            }
+            else if (collision.CompareTag("Breakable") || collision.CompareTag("Missile"))
+            {
+                Destroy(collision.gameObject);
+                Destroy(gameObject);
+            }
+            return;
+        }
+
         if(collision.CompareTag("Ground") || collision.CompareTag("Limit"))
         {
             Destroy(gameObject);

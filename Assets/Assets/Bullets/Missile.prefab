@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 3838248658552651462, guid: 1c568eec5bccb6b4b9cfc2dd9ec847a8, type: 3}
+      propertyPath: isMissile
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4420895215466966723, guid: 1c568eec5bccb6b4b9cfc2dd9ec847a8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

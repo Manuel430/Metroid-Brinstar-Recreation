@@ -113,14 +113,13 @@ public class SamusScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(!inCutscene)
-        {
-            rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
-        }
-        else
+        if(inCutscene)
         {
             rBody.velocity = Vector2.zero;
+            return;
         }
+
+        rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
     }
 
     private void Flip()
@@ -259,6 +258,17 @@ public class SamusScript : MonoBehaviour
             if(isMorphBall)
             {
                 return;
+            }
+
+            if (canMissile)
+            {
+                missileCount--;
+
+                if(missileCount <= 0)
+                {
+                    missileCount = 0;
+                    samusAnim.MissileAnim(false);
+                }
             }
 
             samusAnim.FiringAnim();

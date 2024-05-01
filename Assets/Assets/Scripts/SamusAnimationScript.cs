@@ -20,6 +20,8 @@ public class SamusAnimationScript : MonoBehaviour
     [SerializeField] GameObject powerBeam;
     [SerializeField] GameObject variaBeam;
     [SerializeField] GameObject iceBeam;
+    [SerializeField] GameObject normalMissile;
+    [SerializeField] GameObject variaMissile;
     
     public void SetCutscene()
     {
@@ -124,6 +126,39 @@ public class SamusAnimationScript : MonoBehaviour
         {
             GameObject bullet = Instantiate(powerBeam, firePointUp.position, firePointUp.rotation);
             bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.y);
+        }
+    }
+
+    private void ShootMissile()
+    {
+        if(isVariaSuit)
+        {
+            GameObject bullet = Instantiate(variaMissile, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.x);
+            return;
+        }
+        else
+        {
+            GameObject bullet = Instantiate(normalMissile, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.x);
+            return;
+        }
+
+    }
+
+    private void ShootUpMissile()
+    {
+        if (isVariaSuit)
+        {
+            GameObject bullet = Instantiate(variaMissile, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.y);
+            return;
+        }
+        else
+        {
+            GameObject bullet = Instantiate(normalMissile, firePoint.position, firePoint.rotation);
+            bullet.GetComponent<BeamBullet>().Init(samus.transform.localScale.y);
+            return;
         }
     }
 }
