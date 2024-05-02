@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ripper_03
       objectReference: {fileID: 0}
+    - target: {fileID: 2443090490667676699, guid: 86f99c16e62d09a47aaedb9547d28d17, type: 3}
+      propertyPath: m_TagString
+      value: Missile
+      objectReference: {fileID: 0}
     - target: {fileID: 5004106521330986355, guid: 86f99c16e62d09a47aaedb9547d28d17, type: 3}
       propertyPath: m_Sprite
       value: 
