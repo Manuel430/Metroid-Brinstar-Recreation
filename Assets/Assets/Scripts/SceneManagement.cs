@@ -17,6 +17,9 @@ public class SceneManagement : MonoBehaviour
 
         playerActions.MainMenu.Play.performed += StartGame;
         playerActions.MainMenu.Quit.performed += QuitGame;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void StartGame(InputAction.CallbackContext context)
