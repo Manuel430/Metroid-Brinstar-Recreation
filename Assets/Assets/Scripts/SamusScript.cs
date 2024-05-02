@@ -16,6 +16,7 @@ public class SamusScript : MonoBehaviour
     [SerializeField] Transform roofCheck;
     [SerializeField] Transform bombPoint;
     [SerializeField] GameObject morphBallBomb;
+    [SerializeField] GameObject missileIcon;
     [SerializeField] LayerMask groundLayer;
 
     [Header("Player Stats")]
@@ -26,6 +27,7 @@ public class SamusScript : MonoBehaviour
     [Header("Cutscene")]
     [SerializeField] bool inCutscene;
     [SerializeField] bool isMoving;
+    [SerializeField] bool isPaused;
 
     [Header("Upgrades")]
     [SerializeField] bool isMorphBall;
@@ -36,7 +38,7 @@ public class SamusScript : MonoBehaviour
     [SerializeField] bool isAimingUp;
     [SerializeField] bool canBomb;
 
-    #region Cutscene
+    #region Get and Sets
     
     public bool SetCutscene (bool setCutscene)
     {
@@ -80,6 +82,17 @@ public class SamusScript : MonoBehaviour
         canBomb = true;
     }
 
+    public void SetIconActive()
+    {
+        missileIcon.SetActive(true);
+    }
+
+    public void ResetMovement()
+    {
+        horizontal = 0;
+        samusAnim.PlayerAnimMove(horizontal);
+    }
+
     #endregion
 
     private void Awake()
@@ -104,6 +117,15 @@ public class SamusScript : MonoBehaviour
         playerActions.Player.Fire.canceled += Firing;
 
         playerActions.Player.MissileSelect.performed += MissileSelect;
+
+        playerActions.Player.Pause.performed += PausingGame;
+
+        playerActions.Player.Quit.performed += QuittingGame;
+        
+        missileIcon.SetActive(false);
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
     }
 
@@ -286,6 +308,7 @@ public class SamusScript : MonoBehaviour
                 if(missileCount <= 0)
                 {
                     missileCount = 0;
+                    missileIcon.SetActive(false);
                     samusAnim.MissileAnim(false);
                 }
             }
@@ -314,6 +337,28 @@ public class SamusScript : MonoBehaviour
                 samusAnim.MissileAnim(false);
             }
         }
+    }
+
+    private void PausingGame(InputAction.CallbackContext context)
+    {
+        if (isPaused)
+        {
+            Time.timeScale = 1.0f;
+            ResetMovement();
+            inCutscene = false;
+        }
+        else
+        {
+            Time.timeScale = 0;
+            inCutscene = true;
+        }
+
+        isPaused = !isPaused;
+    }
+
+    private void QuittingGame(InputAction.CallbackContext context)
+    {
+        Application.Quit();
     }
 
 }

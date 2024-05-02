@@ -14,5 +14,6 @@ public class StopSamus : MonoBehaviour
     public void TurnCutsceneOff()
     {
         samus.SetCutscene(false);
+        samus.ResetMovement();
     }
 }

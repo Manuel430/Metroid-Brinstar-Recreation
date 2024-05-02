@@ -162,6 +162,7 @@ MonoBehaviour:
   roofCheck: {fileID: 8321808510751641555}
   bombPoint: {fileID: 2241853382347515159}
   morphBallBomb: {fileID: 2877626882215003642, guid: 26786415992a5084c9f7facca7404a17, type: 3}
+  missileIcon: {fileID: 0}
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -432,6 +433,7 @@ GameObject:
   - component: {fileID: 2813130553311739636}
   - component: {fileID: 2664942127460217890}
   - component: {fileID: 8346536765625452375}
+  - component: {fileID: 7288616950937108797}
   m_Layer: 0
   m_Name: Samus
   m_TagString: Player
@@ -554,10 +556,10 @@ MonoBehaviour:
   firePoint: {fileID: 5933697426424248451}
   firePointUp: {fileID: 4219243448793770222}
   powerBeam: {fileID: 7175314937031075000, guid: 1c568eec5bccb6b4b9cfc2dd9ec847a8, type: 3}
-  variaBeam: {fileID: 0}
-  iceBeam: {fileID: 0}
-  normalMissile: {fileID: 0}
-  variaMissile: {fileID: 0}
+  variaBeam: {fileID: 7642692954361367030, guid: 4756f27a7a96aac48a91f9539b36149e, type: 3}
+  iceBeam: {fileID: 4162831247137414927, guid: a2fbed8c97107c2428ad6a4762c8ec1b, type: 3}
+  normalMissile: {fileID: 8368033683083266515, guid: 9f95c9e5fa6be0f48b836f77e579877a, type: 3}
+  variaMissile: {fileID: 3769454615387140371, guid: 6b395e98e928ff24f826e99e4c79c932, type: 3}
 --- !u!61 &8346536765625452375
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -603,6 +605,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.59160364, y: 1.2794116}
   m_EdgeRadius: 0
+--- !u!114 &7288616950937108797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7567795490564236033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff17c54ddb7f5d24fa4327f3cf0a752b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 30
+  maxHealth: 100
+  healthText: {fileID: 0}
+  gameOverUI: {fileID: 0}
 --- !u!1 &7738817873501261255
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,7 +649,7 @@ Transform:
   m_GameObject: {fileID: 7738817873501261255}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6600009, y: 0.04804325, z: -10}
+  m_LocalPosition: {x: 0.120000005, y: 2.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BrinstarMap/Brinstar_02.unity
-    guid: 7a158607cde463248bc4438746cc1292
+    path: Assets/Scenes/TitleScreen/TitleScreen_Map.unity
+    guid: 93737e83c39f6f64186d57d0f8477e3d
+  - enabled: 1
+    path: Assets/Scenes/BrinstarMap/Brinstar_MapComplete.unity
+    guid: 7030dae302e2ec3449f212e4296584cf
   m_configObjects: {}

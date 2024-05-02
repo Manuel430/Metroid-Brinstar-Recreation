@@ -28,6 +28,7 @@ public class ItemPickup : MonoBehaviour
                 case 2:
                     Debug.Log("Missile Aquired");
                     upgradeCheck.SetMissileCheck(checker);
+                    SamusUpdate.SetIconActive();
                     SamusUpdate.MissileExpand(5);
                     break;
                 case 3:
